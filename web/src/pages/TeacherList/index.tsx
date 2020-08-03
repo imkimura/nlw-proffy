@@ -2,8 +2,7 @@ import React from 'react';
 
 import './styles.css';
 import PageHeader from '../../components/PageHeader';
-
-import whatsappIcon from '../../assets/images/icons/whatsapp.svg';
+import TeacherItem from '../../components/TeacherItem';
 
 function TeacherList() {
     return (
@@ -28,30 +27,9 @@ function TeacherList() {
             </PageHeader>
 
             <main>
-                <article className="teacher-item">
-                    <header>
-                        <img src="" alt=""/>
-                        <div>
-                            <strong>Zé Pequeno</strong>
-                            <span>Química</span>
-                        </div>
-                    </header>
-
-                    <p>
-                        Muito boa minhas aula, 100% de aprendizado, alunos formados, top top
-                    </p>
-
-                    <footer>
-                        <p>
-                            Preço/Hora
-                            <strong>R$ 20,00</strong>
-                        </p>
-                        <button type="button">
-                            Entrar em contato
-                            <img src={whatsappIcon} alt="Entrar em contato"/>
-                        </button>
-                    </footer>
-                </article>
+                <TeacherItem />
+                <TeacherItem />
+                <TeacherItem />
             </main>
         </div>
     );
