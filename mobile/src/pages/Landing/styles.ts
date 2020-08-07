@@ -19,7 +19,42 @@ const styles = StyleSheet.create({
         marginTop: 80,
     },
     titleBold: {
-        fontWeight: 'bold'
+        fontFamily: 'Poppins_600SemiBold',
+    },
+    buttonsContainer: {
+        flexDirection: 'row',
+        marginTop: 40,
+        justifyContent: 'space-between'
+    },
+    button: {
+        height: 150,
+        width: '48%',
+        backgroundColor: '#333',
+        borderRadius: 8,
+        padding: 24,
+        justifyContent: 'space-around',
+        alignItems: 'center',
+    },
+    buttonPrimary: {
+        backgroundColor: '#9871f5'
+    },
+    buttonSecondary: {
+        backgroundColor: '#04d361',
+        borderColor: '#fff',
+        borderWidth: 1,
+    },
+    buttonText: {
+        fontFamily: 'Archivo_700Bold',
+        fontSize: 20,
+        color: '#FFF'
+    },
+    totalConnections: {
+        fontFamily: 'Poppins_400Regular',
+        color: '#d4c2ff',
+        fontSize: 13,
+        lineHeight: 20,
+        maxWidth: 180,
+        marginTop: 40
     }
 });
 
